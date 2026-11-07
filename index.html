@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kelas 7.2 (VII.II) – SMP X</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="nav" id="nav">
+  <a class="brand" href="#beranda"><span class="ms">school</span>7.2</a>
+  <div class="links" id="links"></div>
+</nav>
+
+<header id="beranda" class="hero">
+  <div class="hero-photo" id="heroPhoto"></div>
+  <div class="hero-text">
+    <h1 id="heroTitle"></h1>
+    <p id="heroSub"></p>
+  </div>
+</header>
+
+<main>
+  <section id="pengumuman"><h2><span class="ms">campaign</span>Pengumuman</h2><div id="pengumumanList" class="stack"></div></section>
+  <section id="jadwal"><h2><span class="ms">calendar_month</span>Jadwal pelajaran</h2><div id="hariTabs" class="tabs"></div><div id="jadwalList" class="stack"></div></section>
+  <section id="pulang"><h2><span class="ms">logout</span>Jadwal pulang</h2><div id="pulangList" class="grid g3"></div></section>
+  <section id="piket"><h2><span class="ms">cleaning_services</span>Piket kelas</h2><div id="piketList" class="grid g3"></div></section>
+  <section id="struktur"><h2><span class="ms">account_tree</span>Struktur kelas</h2><div id="strukturBox"></div></section>
+  <section id="siswa">
+    <h2><span class="ms">groups</span>Daftar siswa <small id="siswaCount"></small></h2>
+    <label class="search"><span class="ms">search</span><input id="cari" type="search" placeholder="Cari nama atau username"></label>
+    <div id="siswaList" class="grid g3"></div>
+  </section>
+  <section id="galeri"><h2><span class="ms">photo_library</span>Galeri</h2><div id="galeriList" class="grid g3"></div></section>
+</main>
+<footer>Kelas 7.2 (VII.II) · SMP X</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
